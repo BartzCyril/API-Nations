@@ -75,6 +75,9 @@ app.post('/login', async (req,res) => {
     }
 })
 
+// Serve the built front (frontend/app/build) when present; the front uses HashRouter so no SPA fallback is needed
+app.use(express.static(require('path').join(__dirname, '../../frontend/app/build')));
+
 if (process.env.NODE_ENV !== 'test') {
     app.listen(PORT, () => {
         console.log(`app running on port ${PORT}`);
