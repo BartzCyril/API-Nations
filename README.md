@@ -13,7 +13,7 @@
 
 ## Sujet
 
-Projet de formation centré sur l'**infrastructure**. Le point de départ est une application existante, développée par Alexis Metton lors d'une évaluation : une API Express qui diffuse les données de `countries.json` pour l'association ANNA, et son interface React. Mon travail a consisté à rendre cette application déployable et scalable :
+Projet de formation centré sur l'**infrastructure**.
 
 1. Réorganiser le dépôt en deux services (`backend/`, `frontend/`) et écrire leurs **Dockerfiles**
 2. Automatiser la construction et la publication des images sur **Docker Hub** avec **GitHub Actions**
