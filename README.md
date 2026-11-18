@@ -2,7 +2,7 @@
 
 > Une API REST de données sur les pays du monde et son interface React, conteneurisées avec Docker, publiées automatiquement sur Docker Hub et déployées sur Kubernetes avec mise à jour progressive (rolling update).
 
-🔗 **Démo en ligne** : [https://api-nations.qota7916.odns.fr](https://api-nations.qota7916.odns.fr)
+🔗 **Démo en ligne** : [https://api-nations.bartzcyril.fr](https://api-nations.bartzcyril.fr)
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
